@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    background-image: url(/assets/img/bk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    height: 84px;
+}
+
+header nav{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+section div h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+}
+
+section div h2 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+}
+
+section div button {
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    margin-top: 55px;
+    width: 211px;
+    height: 62px;
+    border-radius: 30px;
+    border: none;
+    color: #210535;
+}
+
+#arrow {
+    color: #6866D4;
+}
+
+#astronauta {
+    margin-right: 40px;
+    margin-top: -110px;
+}
+
+article {
+    margin: 50px 0 100px 100px;
+}
+
+article h3 {
+    font-size: 32px;
+    font-weight: 600px;
+    width: 987px;
+    text-align: center;
+    color: #fff;
+}
+
+#container {
+    display: flex;
+    gap: 45px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 300px;
+    height: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.photo {
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    margin: 15px 37px;
+}
+
+hr {
+    width: 1028px;
+    margin: auto;
+    border-top: 2.2px solid #bebebe;
+}
+
+footer {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    color: #fff;
+}
